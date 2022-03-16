@@ -24,11 +24,12 @@ $$ \frac{n!}{k!(n-k)} $$
       k1 = factorial(k)
       z1 = factorial(n - k)
       return int(n1 / (k1 * z1))
-```
+
     n = int(input())
     k = int(input())
 
     print(compute_binom(n, k))
+```    
 ## Education:
 * __Gomel State Professional Lyceum of Mechanical Engineering №78__
     * Faculty of Mechanical Engineering, 2012 - 2015.
